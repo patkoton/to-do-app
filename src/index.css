@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   background-color: darkolivegreen;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.app-header {
+  text-align: center;
+}
+
+
+.inp-todo {
+  width: 200px;
+  height: 30px;
+  border: none;
+  background-color: white;
+  color: rgb(38, 38, 41);
+  position: absolute;
+  top: 100px;
+  left: 500px;
+}
+
+.but-todo {
+  width: 30px;
+  height: 32px;
+  background-color: white;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  top: 100px;
+  left: 700px;
+}
+
+.sel-todo {
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  border: none;
+  position: absolute;
+  top: 100px;
+  left: 750px;
+}
+
+.select select {
+  background-color: aqua;
+}
