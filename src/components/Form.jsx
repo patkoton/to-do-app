@@ -3,8 +3,8 @@ import "../index.css";
 
 const Form = () => {
   return (
-    <div className='form'>
-      <form action="">
+    <div className=''>
+      <form action="" className='form'>
         <input type="text" className='inp-todo' />
         <button className='but-todo' type='submit'></button>
         
