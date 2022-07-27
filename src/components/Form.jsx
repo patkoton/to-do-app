@@ -1,7 +1,7 @@
 import React from 'react'
 import "../index.css";
 
-const Form = ({ inputText, setInputText, todos, setTodos }) => {
+const Form = ({ inputText, setInputText, todos, setTodos, setStatus }) => {
 
   // const textInputHandler = (e) => {
   //   console.log(e.target.value);
@@ -26,7 +26,7 @@ const Form = ({ inputText, setInputText, todos, setTodos }) => {
         </button>
         
         <div className='select'>
-            <select name="todo" id="" className='sel-todo'>
+            <select name="todo" id="" className='sel-todo' onChange={(e) => setStatus(e.target.value)} >
                 <option value="all">All</option>
                 <option value="completed">Completed</option>
                 <option value="uncompleted">Uncompleted</option>

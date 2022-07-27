@@ -22,6 +22,7 @@ code {
 
 .app-header {
   text-align: center;
+  margin-top: 50px;
 }
 
 
@@ -79,7 +80,7 @@ code {
 .select::after {
   content: "\25BC";
   position: absolute;
-  top: 95px;
+  top: 145px;
   right: 583px;
   background-color: darkolivegreen;
   cursor: pointer;
@@ -97,6 +98,10 @@ code {
   align-items: center;
 }
 
+.todo-list {
+  margin-top: 50px;
+}
+
 .todo-item {
   width: 200px;
   height: 30px;
@@ -109,7 +114,7 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 15px;
 }
 
 .complete-btn, .trash-btn {
@@ -126,3 +131,9 @@ code {
   background-color: rgb(184, 219, 123);
 }
 
+.completed {
+  text-decoration: line-through;
+  color: darkolivegreen;
+  font-weight: bold;
+  opacity: 0.5;
+}
