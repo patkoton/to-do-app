@@ -81,14 +81,14 @@ code {
   content: "\25BC";
   position: absolute;
   top: 145px;
-  right: 583px;
+  right: 37%;
   background-color: darkolivegreen;
   cursor: pointer;
   pointer-events: none;
   width: 20px;
   height: 26px;
   padding: 4px 0px 0px 6px;
-  margin-top: -3px;
+  margin-top: -2px;
 }
 
 

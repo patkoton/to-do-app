@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+![Design preview for the To-do App](./src/images/Screenshot%20(95).png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
