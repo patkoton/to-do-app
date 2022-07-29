@@ -1,4 +1,4 @@
-# To-do React App Desktop Preview
+# To-do React App Preview
 
 ![Design preview for the To-do App](./src/images/Screenshot%20(95).png)
 
